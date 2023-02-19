@@ -1,0 +1,92 @@
+.about{
+    overflow: hidden;
+    padding: 7rem 1rem 7rem 2rem;
+}
+
+.about-row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-row .about-column{
+    width :45%;
+}
+
+.about-row .about-column img{
+    width :500px;
+    height :500px;
+    border-radius: 50%;
+}
+
+.about-text{
+    padding-top: 30px;
+    margin-bottom: 30px;
+}
+
+.about-text .about-title{
+    margin-bottom: 20px;
+}
+
+.about-title span{
+    font-size: 30px;
+    color:rgba(43, 112, 225, 0.88);
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    display: block;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.about-title span::before{
+    content: "";
+    position: absolute;
+    top: 45px;
+    width: 60%;
+    height: 3px;
+    background:rgba(40, 216, 100, 1);
+}
+
+.about-title h2{
+    color: #000;
+    font-size: 40px;
+    font-weight: 500;
+    font-family: 'Nuosu SIL' ,serif;
+    margin-top: 40px;
+}
+
+.about-text p{
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    color: #000;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.about-text h4{
+    font-size: 15px;
+    font-family: "Poppins",sans-serif;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.number{
+    display: flex;
+    align-items: center;
+}
+
+.number i{
+    font-size: 30px;
+    color: rgba(40, 216, 100,1);
+}
+
+.number h3{
+    font-size: 16px;
+    font-family: "Bai Jamjuree",sans-serif;
+    color: black;
+    font-weight: 600;
+    margin-left: 20px;   
+}

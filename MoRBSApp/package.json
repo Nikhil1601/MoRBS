@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "node-git-lfs": "^0.0.1"
+  }
+}

@@ -1,0 +1,22 @@
+table{
+    border: 3px solid;
+    align-items: center;
+    max-width: 960px;
+    color:rgba(11, 41, 88, 0.88);
+    line-height: 65px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: "Poppins" ,sans-serif;
+}
+
+table th{
+    border: 2px solid;
+    margin: 0px;
+    align-items: center;
+}
+
+table td{
+    border: 1px solid;
+    padding: 34px;
+    align-items: center;
+}
