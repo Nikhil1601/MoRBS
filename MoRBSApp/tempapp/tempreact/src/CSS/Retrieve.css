@@ -1,0 +1,50 @@
+.link{
+    display: flex;
+    width: 50%;
+}
+
+.link label{
+    margin-top:5px;
+    font-size: 30px;
+    color:white;
+    font-family: "poppins",sans-serif;
+}
+
+.link .retrieve {
+    text-decoration: underline;
+    padding: 3%;
+    margin-left: 2%;
+    background-color: rgba(40, 216, 100, 1);
+    border:1px solid rgba(40, 216, 100, 1);
+    border-radius: 4px;
+    color:white;
+    width: 30%;
+    font-weight: 400;
+    font-family: "poppins",sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.link .input-box {
+    padding: 0%;
+    margin-right: 2%;
+    width: 70%;
+    padding: 3%;
+    margin-left: 2%;
+    background-color: rgb(107, 197, 107);
+    border:1px solid rgb(77, 192, 116);
+    border-radius: 4px;
+    color:white;
+    font-weight: 400;
+    font-family: "poppins",sans-serif;
+    letter-spacing: 0.5px;
+}
+
+.container {
+    width: 100%;
+    position: relative;
+    display: grid;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
